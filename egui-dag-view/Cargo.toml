@@ -1,0 +1,9 @@
+[package]
+name = "egui-dag-view"
+version = "0.1.0"
+edition = "2021"
+description = "A generic egui Widget for laying out and exploring any directed acyclic graph (DAG)"
+license = "MIT"
+
+[dependencies]
+egui = "0.34.1"
