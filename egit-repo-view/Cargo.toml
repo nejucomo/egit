@@ -1,0 +1,11 @@
+[package]
+name = "egit-repo-view"
+version = "0.1.0"
+edition = "2021"
+description = "An egui Widget for viewing the commit history of a git repository as an interactive DAG"
+license = "MIT"
+
+[dependencies]
+egui = "0.34.1"
+git2 = "0.20.4"
+egui-dag-view = { path = "../egui-dag-view" }

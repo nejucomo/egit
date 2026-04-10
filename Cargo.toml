@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "egui-dag-view",
+    "egit-repo-view",
+    "egit",
+]
+resolver = "2"

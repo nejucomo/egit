@@ -1,0 +1,15 @@
+[package]
+name = "egit"
+version = "0.1.0"
+edition = "2021"
+description = "Interactive visual git history explorer — CLI wrapper around an eframe/egui app"
+license = "MIT"
+
+[[bin]]
+name = "egit"
+path = "src/bin/egit.rs"
+
+[dependencies]
+clap = { version = "4.6.0", features = ["derive"] }
+eframe = "0.34.1"
+egit-repo-view = { path = "../egit-repo-view" }
